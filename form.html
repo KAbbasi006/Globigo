@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Booking</title>
+</head>
+
+<style>
+    body {
+        background-color: #14505C;
+        margin-bottom: 100px;
+    }
+
+    #header {
+        background-color: #14505c;
+    }
+
+    #header a {
+        color: white !important;
+    }
+
+    @media only screen and (max-width: 766px) {
+        #header a {
+            color: #14505C !important;
+        }
+    }
+
+
+
+    .nav__logo {
+        margin-top: 10px;
+    }
+
+    .BOOK {
+        margin-top: 100px;
+    }
+
+    #HEAD {
+        text-align: center;
+        padding: 20px;
+        font-size: large;
+        color: orangered !important;
+    }
+
+    .gos {
+        color: orangered;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .BOOKING {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+    .BOOKING img {
+        width: 590px;
+        border-radius: 5px;
+
+    }
+
+    .FORM {
+        width: 330px;
+        margin-inline: 50px;
+        background-color: #14505c;
+        padding: 22px;
+        box-shadow: 0px 4px 4px 6px rgb(28, 25, 25);
+        border-radius: 4px;
+        font-style: oblique;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+
+    @media screen and (max-width: 1020px) {
+        .FORM {
+            margin-top: 38px;
+        }
+    }
+
+
+    .FORM input {
+        width: 90%;
+        padding: 6px;
+        font-size: 16px;
+        margin-top: 3px;
+
+    }
+
+    #place {
+        width: 94%;
+        padding: 6px;
+        font-size: 16px;
+        margin-top: 3px;
+    }
+
+    .parh {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        color: white;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .par {
+        margin-top: 30px;
+        margin-bottom: 10px;
+        color: white;
+        font-weight: 200;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .FORM button {
+        width: 80px;
+        height: 30px;
+        background-color: orange;
+        color: white;
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border: black solid;
+
+    }
+
+    .form button:hover {
+
+        background-color: brown;
+        cursor: pointer;
+    }
+
+    .fsub {
+        width: 100%;
+        /* heigh t: 100vh; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .popop {
+        width: 400px;
+        background-color: white;
+        border-radius: 6px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        padding: 40px 40px 40px;
+        font-size: large;
+        font-weight: bold;
+        visibility: hidden;
+    }
+
+    .popop>i {
+        color: #14505C;
+        font-size: 100px;
+        /* width: 100px; */
+        /* margin-top: -52  q0px; */
+    }
+
+    .popop h2 {
+        margin: 10px;
+        font-weight: 900;
+        font-size: 38px;
+    }
+
+    .popop button {
+        width: 100%;
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #14505C;
+        color: white;
+        border-radius: 5px;
+    }
+
+    .open-popop {
+        visibility: visible;
+    }
+</style>
+
+
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo"><img src="../Globigo/assets/img/Globigo-white-01.png" width="150px"
+                    alt="logo"></a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html #about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html #place" class="nav__link">Places</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="packages.html" class="nav__link">Packages</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="form.html" class="nav__link">Booking</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="connect.html" class="nav__link">Contact Us</a>
+                    </li>
+
+
+                </ul>
+
+                <!-- <div class="nav__dark">
+                    <span class="change-theme-name">Dark mode</span>
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+                </div> -->
+
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <div class="BOOK">
+        <div id="HEAD">
+            <h1 class="gos">Book <span> Your Place</span></h1>
+        </div>
+        <div class="BOOKING">
+            <img src="https://static.vecteezy.com/system/resources/previews/016/186/315/original/online-travel-ticket-store-through-transportation-and-journey-provider-app-for-booking-in-flat-cartoon-hand-drawn-template-illustration-vector.jpg"
+                alt="image">
+            <div class="FORM">
+                <form id="myForm" onsubmit="return validateForm()">
+                    <h2 class="parh"> Book Your Place Now</h2>
+                    <p class="par">Where You Want To Go </P>
+
+                    <select name="select place" id="place">
+                        <option selected="selected"> Please choose Your Destination </option>
+                        <option value="bali">Bali</option>
+                        <option value="bali">Hawai</option>
+                        <option value="bali">Bora Bora</option>
+                        <option value="bali">White Heaven</option>
+                        <option value="bali">Hvar</option>
+                    </select> </p>
+
+                    <p class="par">Members</p>
+                    <input required type="number" value="2">
+
+                    <p class="par">Journey Start On</p>
+                    <input required type="date">
+
+                    <p class="par">Journey End On</p>
+                    <input required type="date">
+
+                    <p class="par"><button type="submit" onclick="openPopop()">Submit</button></p>
+
+                    </button>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="fsub">
+        <div class="popop" id="popop">
+            <i class="fa-solid fa-check"></i>
+            <h2>Thank You!</h2>
+            <p>Your Booking has been Confirmed.</p>
+            <button type="button" onclick="closePopop()">OK</button>
+        </div>
+    </div>
+
+    <script>
+        let popup = document.getElementById("popop");
+        function openPopop() {
+            popup.classList.add("open-popop");
+        }
+        function closePopop() {
+            popup.classList.remove("open-popop");
+        }
+
+        function validateForm() {
+            let form = document.getElementById("myForm");
+            let isValid = form.checkValidity();
+            if (isValid) {
+                openPopop();
+            }
+            return false; // Prevents form submission for this example
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+    <script src="assets/js/main.js"></script>
+
+
+
+
+
+</body>
+
+</html>

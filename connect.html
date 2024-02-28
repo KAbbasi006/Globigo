@@ -1,0 +1,560 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Contact Us</title>
+</head>
+
+<style>
+    body {
+        background-color: #14505C;
+        margin-bottom: 100px;
+    }
+
+    #header {
+        background-color: #14505c;
+    }
+
+    .nav__logo {
+        margin-top: 10px;
+    }
+
+    h1 {
+        color: orangered;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .head {
+        text-align: center;
+        padding: 20px;
+        font-size: large;
+        color: orangered;
+    }
+
+    .connect {
+        margin-top: 100px;
+    }
+
+    .contact {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+    .contact img {
+      
+        border-radius: 5px;
+    }
+
+    .cntt {
+        width: 360px;
+        margin-inline: 50px;
+        background-color: #14505c;
+        padding: 22px;
+        box-shadow: 0px 4px 4px 6px rgb(28, 25, 25);
+        border-radius: 4px;
+        font-style: oblique;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+    @media screen and (max-width: 1086px){
+        .cntt {
+            margin-top: 38px;
+        }
+    }
+
+    .lion {
+        width: 90%;
+        padding: 6px;
+        font-size: 16px;
+      
+    }
+
+    .TexT {
+        margin-top: 20px;
+        font-weight: 200;
+        padding: 10px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #header a {
+        color: white !important;
+    }
+
+    @media only screen and (max-width: 766px) {
+        #header a {
+            color: #14505C !important;
+        }
+    }
+
+    .cntt button {
+        width: 80px;
+        height: 30px;
+        background-color: orange;
+        color: white;
+        font-size: 16px;
+        margin-top: 20px;
+  
+        border: black solid;
+    }
+
+    .cntt button:hover {
+        background-color: brown;
+        cursor: pointer;
+    }
+
+    .fsub {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .popop {
+        width: 400px;
+        background-color: white;
+        border-radius: 6px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        padding: 40px 40px 40px;
+        font-size: large;
+        font-weight: bold;
+        visibility: hidden;
+    }
+
+    .popop>i {
+        color: #14505C;
+        font-size: 100px;
+       
+    }
+
+    .popop h2 {
+        margin: 10px;
+        font-weight: 900;
+        font-size: 38px;
+    }
+
+    .popop button {
+        width: 100%;
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #14505C;
+        color: white;
+        border-radius: 5px;
+    }
+
+    .open-popop {
+        visibility: visible;
+    }
+</style>
+
+<body>
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo"><img src="../Globigo/assets/img/Globigo-white-01.png" width="150px"
+                    alt="logo"></a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html #about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html #place" class="nav__link">Places</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="packages.html" class="nav__link">Packages</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="form.html" class="nav__link">Booking</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="connect.html" class="nav__link">Contact Us</a>
+                    </li>
+
+
+                </ul>
+
+              
+
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+
+    <div class="connect">
+        <div class="head">
+
+
+            <h1> Contact <span> Us</span></h1>
+        </div>
+
+        <div class="contact">
+            <img src="https://img.freepik.com/free-vector/organic-flat-customer-support_23-2148881015.jpg" alt="">
+
+
+                <div class="cntt">
+
+                    <p class="TexT formdesign"  id="name">Name</p>
+                    <input required class="lion" type="text" placeholder="Enter your name">
+                    <p class="TexT formdesign" id="email">Email</p>
+                    <input class="lion" type="email" placeholder="Enter your Email">
+                    <p class="TexT formdesign" id="phone">Phone</p>
+                    <input class="lion" type="number" placeholder="Enter your phone number">
+                    <p class="TexT formdesign" id="message">Message</p>
+                    <textarea cols="40" rows="8" placeholder="Your message"></textarea>
+                    <p class="TexT formdesign" id="submitt"> <button type="submit" onclick="openPopop()">Submit</button> </p>
+
+                </div>
+        </div>
+    </div>
+
+    <div class="fsub">
+        <div class="popop" id="popop">
+            <i class="fa-solid fa-check"></i>
+            <h2>Thank You!</h2>
+            <p>Your Details have been submitted. Thanks!</p>
+            <button type="button" onclick="closePopop()">OK</button>
+        </div>
+    </div>
+
+    <script>
+        let popup = document.getElementById("popop");
+        function openPopop() {
+            popup.classList.add("open-popop");
+        }
+        function closePopop() {
+            popup.classList.remove("open-popop");
+        }
+    </script>
+
+
+    <script src="assets/js/main.js"></script>
+
+
+
+
+
+
+
+</body>
+
+</html> -->
+
+<!DOCTYPE html>                                                                                                                                                    
+<html lang="en">0
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Contact Us</title>
+</head>
+
+<style>
+    body {
+        background-color: #14505C;
+        margin-bottom: 100px;
+    }
+
+    #header {
+        background-color: #14505c;
+    }
+
+    .nav__logo {
+        margin-top: 10px;
+    }
+
+    h1 {
+        color: orangered;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .head {
+        text-align: center;
+        padding: 20px;
+        font-size: large;
+        color: orangered;
+    }
+
+    .connect {
+        margin-top: 100px;
+    }
+
+    .contact {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+
+    .contact img {
+        /* width:590px ; */
+        border-radius: 5px;
+    }
+
+    .cntt {
+        width: 360px;
+        margin-inline: 50px;
+        background-color: #14505c;
+        padding: 22px;
+        box-shadow: 0px 4px 4px 6px rgb(28, 25, 25);
+        border-radius: 4px;
+        font-style: oblique;
+        font-size: 20px;
+        font-weight: bold;
+
+    }
+    @media screen and (max-width: 1086px){
+        .cntt {
+            margin-top: 38px;
+        }
+    }
+
+    .lion {
+        width: 90%;
+        padding: 6px;
+        font-size: 16px;
+        /* margin-top: 3px;  */
+    }
+
+    .TexT {
+        margin-top: 20px;
+        font-weight: 200;
+        padding: 10px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #header a {
+        color: white !important;
+    }
+
+    @media only screen and (max-width: 766px) {
+        #header a {
+            color: #14505C !important;
+
+        }
+    }
+
+    .cntt button {
+        width: 80px;
+        height: 30px;
+        background-color: orange;
+        color: white;
+        font-size: 16px;
+        margin-top: 20px;
+        /* margin-bottom:10px ; */
+        border: black solid;
+    }
+
+    .cntt button:hover {
+        background-color: brown;
+        cursor: pointer;
+    }
+
+    .fsub {
+        width: 100%;
+        /* height: 100vh; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .popop {
+        width: 400px;
+        background-color: white;
+        border-radius: 6px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        padding: 40px 40px 40px;
+        font-size: large;
+        font-weight: bold;
+        visibility: hidden;
+    }
+
+    .popop>i {
+        color: #14505C;
+        font-size: 100px;
+        /* width: 100px; */
+        /* margin-top: -52  q0px; */
+    }
+
+    .popop h2 {
+        margin: 10px;
+        font-weight: 900;
+        font-size: 38px;
+    }
+
+    .popop button {
+        width: 100%;
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #14505C;
+        color: white;
+        border-radius: 5px;
+    }
+
+    .open-popop {
+        visibility: visible;
+    }
+</style>
+
+<body>
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo"><img src="../Globigo/assets/img/Globigo-white-01.png" width="150px"
+                    alt="logo"></a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html #about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="index.html #place" class="nav__link">Places</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="packages.html" class="nav__link">Packages</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="form.html" class="nav__link">Booking</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="connect.html" class="nav__link">Contact Us</a>
+                    </li>
+
+
+                </ul>
+
+                <!-- <div class="nav__dark">
+                        <span class="change-theme-name">Dark mode</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div> -->
+
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+
+    <div class="connect">
+        <div class="head">
+
+
+            <h1> Contact <span> Us</span></h1>
+        </div>
+
+        <div class="contact">
+            <img src="https://img.freepik.com/free-vector/organic-flat-customer-support_23-2148881015.jpg" alt="">
+
+            <div class="cntt">
+                <form id="myForm" onsubmit="return validateForm()">
+                    <p class="TexT formdesign" id="name">Name</p>
+                    <input required class="lion" type="text" placeholder="Enter your name">
+                    <p class="TexT formdesign" id="email">Email</p>
+                    <input required class="lion" type="email" placeholder="Enter your Email">
+                    <p class="TexT formdesign" id="phone">Phone</p>
+                    <input required class="lion" type="number" placeholder="Enter your phone number">
+                    <p class="TexT formdesign" id="message">Message</p>
+                    <textarea required cols="40" rows="8" placeholder="Your message"></textarea>
+                    <p class="TexT formdesign" id="submitt">
+                        <button type="submit">Submit</button>
+                    </p>
+                </form>
+            </div>
+            
+            <div class="fsub">
+                <div class="popop" id="popop">
+                    <i class="fa-solid fa-check"></i>
+                    <h2>Thank You!</h2>
+                    <p>Your Details have been submitted. Thanks!</p>
+                    <button type="button" onclick="closePopop()">OK</button>
+                </div>
+            </div>
+            
+            <script>
+                let popup = document.getElementById("popop");
+            
+                function openPopop() {
+                    popup.classList.add("open-popop");
+                }
+            
+                function closePopop() {
+                    popup.classList.remove("open-popop");
+                }
+            
+                function validateForm() {
+                    let form = document.getElementById("myForm");
+                    let isValid = form.checkValidity();
+                    if (isValid) {
+                        openPopop();
+                    }
+                    return false; // Prevents form submission for this example
+                }
+            </script>
+
+    <script src="assets/js/main.js"></script>
+
+
+
+
+
+
+
+</body>
+
+</html>
